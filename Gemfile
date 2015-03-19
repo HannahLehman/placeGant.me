@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~>3.3.3'
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -43,5 +45,10 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
+
+group :development do
+  # Quiet those assets down!! SIMMA DOWN NAH!
+  gem 'quiet_assets'
 end
 
