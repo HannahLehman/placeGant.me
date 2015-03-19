@@ -14,4 +14,13 @@
  *= require_self
  */
 
-@import 'bootstrap'
+@import 'bootstrap';
+
+html {
+ max-width: 960px;
+ margin: 0px auto;
+}
+
+.row {
+  margin: 10px;
+}
