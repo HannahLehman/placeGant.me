@@ -86,9 +86,9 @@ DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD+~:~?$8NNNDNDDDNDNDDDDDDDDDDDDDDDNNNDDDDDNNNNNDDD
   <!-- Standard Metadata -->
   <title>{placegant}</title>
   <meta name="description" content="Gantman placeholder images for awesome people">
-  <meta name="author" content="Bayou Binary Bitches">
+  <meta name="author" content="Binary Bayou Bitches">
   <meta name="keywords" content="gantman, gant laborde, tacos, imageholder, placeholder, placehold, binary bitches">
-  <meta name="copyright" content="Bayou Binary Bitches. Images &copy; people on the internet.">
+  <meta name="copyright" content="Binary Bayou Bitches. Images &copy; people on the internet.">
   <meta name="robots" content="all">
   <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 
@@ -109,8 +109,8 @@ DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD+~:~?$8NNNDNDDDNDNDDDDDDDDDDDDDDDNNNDDDDDNNNNNDDD
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/html5kit/style.css">
-  <link rel="stylesheet" href="assets/css/placegant.css">
+  <link rel="stylesheet" href="<%= asset_path('application.css.scss') %>">
+  <link rel="stylesheet" href="<%= asset_path('placegant.css.scss') %>">
 
   <!-- Analytics here-->
 
@@ -122,6 +122,7 @@ DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD+~:~?$8NNNDNDDDNDNDDDDDDDDDDDDDDDNNNDDDDDNNNNNDDD
 <body>
 
 <%= yield %>
+
 <%= render 'shared/footer' %>
 
 </body>
