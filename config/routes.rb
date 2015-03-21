@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'pg/index'
 
-  get 'pg/:size', to: 'pg#images'
+  get 'pg/:w/:h', to: 'pg#images'
 
   root 'home#index'
 
