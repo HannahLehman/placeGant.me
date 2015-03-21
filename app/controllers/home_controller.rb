@@ -7,4 +7,5 @@ class HomeController < ApplicationController
 
   def credits
   end
+
 end
