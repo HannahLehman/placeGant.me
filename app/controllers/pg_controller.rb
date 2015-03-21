@@ -1,4 +1,7 @@
 class PgController < ApplicationController
+  def index
+  end
+
   def images
     @w = params[:w]
     @h = params[:h]
