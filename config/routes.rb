@@ -5,7 +5,13 @@ Rails.application.routes.draw do
 
   get 'home/credits'
 
+  get 'pg/index'
+
+  get 'pg/:w/:h', to: 'pg#images'
+
   root 'home#index'
+
+  resources :pg
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
