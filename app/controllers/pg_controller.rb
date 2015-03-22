@@ -21,3 +21,4 @@ class PgController < ApplicationController
   end
 end
 
+# What happens if it's smaller than 200 and larger than 600?

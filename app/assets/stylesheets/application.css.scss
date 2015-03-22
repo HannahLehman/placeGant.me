@@ -14,7 +14,6 @@
  *= require_self
  */
 
-<<<<<<< HEAD
 /* @override http://html5kit.site/assets/css/style.css */
 
 /* @group Resets */
@@ -363,19 +362,3 @@ table.layout, table.layout thead, table.layout th, table.layout tbody, table.lay
 }
 
 /* @end */
-=======
-@import 'bootstrap';
-
-html {
- max-width: 960px;
- margin: 0px auto;
-}
-
-.row {
-  margin: 10px;
-}
-
-#footer {
-  color: red;
-}
->>>>>>> upstream/master
