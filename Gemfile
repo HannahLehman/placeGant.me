@@ -29,6 +29,8 @@ gem 'bootstrap-sass', '~>3.3.3'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 gem 'pg', group: :production
+
+gem 'rails_12factor', group: :production
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -55,6 +57,6 @@ end
 group :development do
   # Quiet those assets down!! SIMMA DOWN NAH!
   gem 'quiet_assets'
-  
+
 end
 
