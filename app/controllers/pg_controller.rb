@@ -1,5 +1,6 @@
 class PgController < ApplicationController
   def index
+    redirect_to('http://placegant.me')
   end
 
   def images
