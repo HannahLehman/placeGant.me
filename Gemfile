@@ -26,8 +26,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 gem 'bootstrap-sass', '~>3.3.3'
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-
 gem 'pg', group: :production
 
 gem 'rails_12factor', group: :production
