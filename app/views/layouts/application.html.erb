@@ -94,29 +94,35 @@ DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD+~:~?$8NNNDNDDDNDNDDDDDDDDDDDDDDDNNNDDDDDNNNNNDDD
 
 
   <!-- Open Graph Metadata -->
-  <meta property="og:site_name" content="placegant">
-  <meta property="og:title" content="placegant">
+  <meta property="og:site_name" content="placeGant">
+  <meta property="og:title" content="placeGant">
   <meta property="og:description" content="Gantman placeholder images for awesome people">
   <meta property="og:type" content="website">
   <meta property="og:image" content="http://placegant.me/200/200">
   <meta property="og:url" content="http://placegant.me">
 
-  <!-- Navigation -->
-  <link rel="home" href="/">
-
   <!-- Icons -->
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="shortcut icon" href="<%= asset_path('gant.ico') %>">
+  <link rel="icon" href="<%= asset_path('gant.ico') %>">
 
   <!-- CSS -->
   <link rel="stylesheet" href="<%= asset_path('application.css.scss') %>">
   <link rel="stylesheet" href="<%= asset_path('placegant.css.scss') %>">
 
-  <!-- Analytics here-->
-
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-61038994-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
 
 <body>
