@@ -39,18 +39,18 @@ h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong {
   font-family: Baskerville, Palatino, "Book Antiqua", serif;
 }
 a {
-  color: #5b9300;
+  color: #F03434;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
 }
 a:visited {
-  color: #3f6700;
+  color: #F03434;
 }
 a:hover {
-  color: #7fcd00;
+  color: #C60000;
 }
 a:active {
-  color: #76be00;
+  color: #F03434;
 }
 header {
   width: 408px;
@@ -83,13 +83,13 @@ header h1 {
   margin-bottom: 0;
 }
 #unit-gant-content p:nth-child(3) a {
-  color: #c9e2b1;
+  color: #F03434;
   margin-left: 1em;
   font-family: monospace, sans-serif;
   -webkit-transition: color 0.2s linear;
 }
 #unit-gant-content p:nth-child(3) a:hover {
-  color: #FFF;
+  color: #C60000;
 }
 #unit-many-many-gants {
   width: 408px;
