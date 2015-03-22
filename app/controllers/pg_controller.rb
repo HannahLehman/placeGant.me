@@ -4,23 +4,21 @@ class PgController < ApplicationController
   end
 
   def images
-    @w = params[:w]
-    @h = params[:h]
+    @w = params[:w].to_i  
+    @h = params[:h].to_i
 
-    if @w.to_i <199 || @h.to_i <199
+    if @w < 199 || @h < 199
       @size = "150x150"
-    elsif @w.to_i >619 || @h.to_i >619
+    elsif @w > 619 || @h > 619
       @size = "800x800"
     else
-      until @w.to_i % 20 == 0
-        @w = @w.to_i - 1
+      until @w % 20 == 0
+        @w -= 1
       end
-      until @h.to_i % 20 == 0
-        @h = @h.to_i - 1
+      until @h % 20 == 0
+        @h -= 1
       end
-        width = @w
-        height = @h
-        @size = width.to_s + 'x' + height.to_s
+        @size = "#{@w}x#{@h}"
     end
   end
 end

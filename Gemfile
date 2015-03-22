@@ -26,6 +26,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 gem 'bootstrap-sass', '~>3.3.3'
 
+# adding font-awesomeness
+gem 'font-awesome-rails'
+
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
 gem 'pg', group: :production
 
 gem 'rails_12factor', group: :production

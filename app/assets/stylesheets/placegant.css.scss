@@ -115,13 +115,16 @@ header h1 {
 #image-5 {
   margin-left: 8px;
 }
-#footer {
+.footer {
   font-size: 85.714%; /* 12px */
   clear: both;
-  margin-top: 16px;
-  border-top: 1px solid #D6D6D6;
+  margin: 16px auto;
+  border-top: 1px solid #6B0000;
   padding: 12px 0;
+  width: 824px;
+  text-align: center;
 }
+
 .page-attribution #unit-content header p {
   width: 50%;
   margin-bottom: 2em;
