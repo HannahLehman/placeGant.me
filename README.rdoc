@@ -1,28 +1,10 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Inspired by placekitten, placeGant is a small helper for generating images of Gantman, Master of the Universe, for use as placeholders in your designs or code. Just put your desired image size (width & height) after this URL and you'll get a placeholder Gant.
 
-Things you may want to cover:
+EXAMPLE: For a 200x300 pixel image, link to http://placegant.me/pg/200/300 in your work.
 
-* Ruby version
+placeGant can also be found as a Ruby gem at https://github.com/AngieGreen/placegant. 
 
-* System dependencies
+To see all the images available, visit http://placegant.me.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
