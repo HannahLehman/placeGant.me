@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
   get 'home/index'
 
+  get 'pg/:w/:h', to: 'pg#images'
+
   get 'home/about'
 
   get 'home/credits'
 
   get 'pg/index'
-
-  get 'pg/:w/:h', to: 'pg#images'
 
   root 'home#index'
 
