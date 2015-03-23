@@ -61,16 +61,18 @@ header h1 {
   color: #999;
   font: normal normal 5em Baskerville, Palatino, "Book Antiqua", serif;
 }
+
 #unit-gant-content {
   width: 400px;
   padding-right: 8px;
   height: 582px;
   float: left;
   position: relative;
+
 }
 #image-0 {
   position: absolute;
-  bottom: 0;
+  bottom: -9px;
 }
 #unit-gant-content p:nth-child(3) {
   padding: 8px 16px;
@@ -94,26 +96,18 @@ header h1 {
 #unit-many-many-gants {
   width: 408px;
   float: right;
-  margin-left: 8px;
-  margin-bottom: 8px;
 }
 #image-1,#image-2,#image-3 {
   float: left;
 }
-#image-1 {
-  margin-right: 8px;
-}
-#unit-many-many-gants img {
-  margin-bottom: 8px;
-}
 #image-4,#image-5,#image-6,#image-7 {
   float: right;
 }
-#image-4 {
-  margin-left: 8px;
+#image-1,#image-2,#image-3,#image-4,#image-5,#image-6,#image-7 {
+  margin: 8px;
 }
-#image-5 {
-  margin-left: 8px;
+#image-1,#image-2 {
+  margin-top: 0;
 }
 .footer {
   font-size: 85.714%; /* 12px */
